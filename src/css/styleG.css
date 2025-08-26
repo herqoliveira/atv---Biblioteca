@@ -105,3 +105,72 @@
 }
 
 
+.ln-header {
+  text-align: center;
+  padding: 30px 10px;
+  background: #ffffff;
+  border-bottom: 2px solid #eee;
+}
+
+.ln-title {
+  color: black;
+  font-size: 28px;
+}
+
+/* Sobre */
+.ln-about {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ln-subtitle {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ln-about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.ln-text {
+  flex: 1 1 400px;
+  text-align: justify;
+}
+
+.ln-image {
+  flex: 1 1 300px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Missão e Visão */
+.ln-mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.ln-mission,
+.ln-vision {
+  flex: 1 1 400px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ln-mission .ln-subtitle,
+.ln-vision .ln-subtitle {
+  margin-bottom: 15px;
+}
