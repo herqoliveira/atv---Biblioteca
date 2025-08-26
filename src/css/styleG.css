@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
 }
-.menu-livros{
+.menu-livros {
+    display: flex;
+    flex-wrap: wrap;   /* permite quebrar de linha */
     justify-content: center;
     margin-top: 30px;
-    display: flex;
     gap: 20px;
 }
 .menu-unidades{
