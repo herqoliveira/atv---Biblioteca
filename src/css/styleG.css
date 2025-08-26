@@ -44,3 +44,44 @@
     text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
 }
 
+.parceiros {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards-parceiros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card-parceiro {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-parceiro:hover {
+    transform: translateY(-5px);
+}
+
+.card-parceiro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card-parceiro h4 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
