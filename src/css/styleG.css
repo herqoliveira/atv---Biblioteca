@@ -3,13 +3,13 @@
     margin: 0;
 }
 .menu-livros{
-    margin-left: 50px;
+    justify-content: center;
     margin-top: 30px;
     display: flex;
     gap: 20px;
 }
 .menu-unidades{
-    margin-left: 150px;
+    justify-content: center;
     margin-top: 50px;
     display: flex;
     gap: 20px;
