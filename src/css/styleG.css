@@ -38,7 +38,12 @@
 .img-banner-menu{
     background-image: url('https://img.freepik.com/vetores-gratis/cenario-panoramico-interior-de-uma-cafeteria_107791-32869.jpg?semt=ais_hybrid&w=740&q=80');
 }
-
+.img-banner-sobre{
+    background-image: url('https://www.shutterstock.com/image-vector/wooden-bookcase-books-bookshelves-multicolored-260nw-1722703624.jpg');
+}
+.img-banner-uni{
+    background-image: url('https://thumbs.dreamstime.com/b/corredor-de-biblioteca-silencioso-alinhado-com-prateleiras-livros-num-cen%C3%A1rio-moderno-um-longo-numa-moderna-apresenta-linhas-331951871.jpg');
+}
 .banner::before {
     content: "";
     position: absolute;
