@@ -8,7 +8,10 @@
     display: flex;
     gap: 20px;
 }
-
+.paginas{
+    margin-left: 80%;
+    margin-top: 20px;
+}
 
 
 .banner {
