@@ -8,6 +8,12 @@
     display: flex;
     gap: 20px;
 }
+.menu-unidades{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
 .paginas{
     margin-left: 80%;
     margin-top: 20px;
